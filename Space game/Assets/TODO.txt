@@ -1,0 +1,34 @@
+﻿-----------MAIN MENU-----------
+✔Bug 1: Main Menu buttons click zone seems to be offset from the button itself.  Might attempt to fix this with making a custom
+	   type of button with pannels and text objects
+
+
+-----------GAME IMPLEMENTATIONS-----------
+✔Implement  1 : Add options menu funcionality.Options include volume for sound effects, "Music?", controls and save inbetween scenes.  It should also save 
+			   volume settings, controls, etc when closing game and starting again.
+✔Implement  2 : Make the exit button actually exit the game from the main menu.
+✔Implement  3 : Add menu Music
+✔Implement  4 : Add Player preferences and have it transfer between secenes
+Implement  5: Make and add background for options menu
+Implement  6: Make and add background credits
+Implement  7: Add button for muting music
+Implement  8: Add slider for Sound FX
+implement  9: Add button to mute Sound FX
+Implement 10: Make new sound for Sliders
+Implement 11: Add save functionallity
+
+-----------EXTERNAL ASSETS-----------
+Fonts:
+	VCR OSD MONO - By Reiciery Lean
+		Link - https://www.dafont.com/vcr-osd-mono.font
+		Date - April, 14, 2014
+	
+	Pixelated - by Greenma201
+		Original Link - http://fontstruct.com/fontstructions/show/426637
+		Link Obtained From - https://www.dafont.com/pixelated.font
+		Date - 2011
+		License Info - Creative Commons Attribution Share Alike license (http://creativecommons.org/licenses/by-sa/3.0/)- 
+Music
+	Fix the Gear-By Oscar Owl
+		Link - https://youtu.be/ObtLQJVCD5w
+		Date - March 28, 2017

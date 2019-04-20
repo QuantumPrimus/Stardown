@@ -14,7 +14,8 @@ public class Fire : MonoBehaviour {
 		if(Input.GetButton("Fire1") && cooldown <= 0)
 		{
 			cooldown = fireRate;
-			Instantiate(bulletPrefab, transform.position, transform.rotation);
-		}
+			GameObject go = Instantiate(bulletPrefab, transform.position, transform.rotation);
+            go.GetComponent<SpriteRenderer>().sortingLayerName = "UI";
+        }
 	}
 }

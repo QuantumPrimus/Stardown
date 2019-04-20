@@ -24,6 +24,8 @@ GameObject:
   - component: {fileID: 114572549984609516}
   - component: {fileID: 50466911525295634}
   - component: {fileID: 60992276174368274}
+  - component: {fileID: 114033249595362678}
+  - component: {fileID: 114492662808176834}
   m_Layer: 0
   m_Name: Asteroid-1
   m_TagString: Untagged
@@ -73,7 +75,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -100,6 +102,17 @@ PolygonCollider2D:
       - {x: 0.19999999, y: -0.25}
       - {x: 0.26999998, y: -0.21}
       - {x: 0.31, y: -0.07}
+--- !u!114 &114033249595362678
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1388460271685460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470bc107e47df164b882a14438f08bf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114055140706095406
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -111,7 +124,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89e53f9edd7454c43acb9feb64250367, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeSpan: 10
+  lifeSpan: 12
+--- !u!114 &114492662808176834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1388460271685460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75953d6b31f574644be1238b08e89b8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowRuntimeFragmentation: 0
+  extraPoints: 0
+  subshatterSteps: 0
+  fragmentLayer: Default
+  sortingLayerName: Default
+  orderInLayer: 0
+  shatterType: 0
+  fragments: []
 --- !u!114 &114572549984609516
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -123,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2be3d45a32e23024887ac702d27c2f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 150, y: 0}
+  speed: {x: 130, y: 0}
   rotateSpeed: -0.7
 --- !u!212 &212107616176521608
 SpriteRenderer:

@@ -220,11 +220,48 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\2D_Destruction\clipper_library\clipper.cs" />
+    <Compile Include="Assets\2D_Destruction\Demo\Demo Scripts\ExplodeOnClick.cs" />
+    <Compile Include="Assets\2D_Destruction\Demo\Demo Scripts\ExplosionForce.cs" />
+    <Compile Include="Assets\2D_Destruction\Demo\Demo Scripts\Reset.cs" />
+    <Compile Include="Assets\2D_Destruction\Scripts\ClipperHelper.cs" />
+    <Compile Include="Assets\2D_Destruction\Scripts\Explodable.cs" />
+    <Compile Include="Assets\2D_Destruction\Scripts\ExplodableAddon.cs" />
+    <Compile Include="Assets\2D_Destruction\Scripts\ExplodableFragments.cs" />
+    <Compile Include="Assets\2D_Destruction\Scripts\SpriteExploder.cs" />
+    <Compile Include="Assets\2D_Destruction\Unity-delaunay\Delaunay\DelaunayHelpers.cs" />
+    <Compile Include="Assets\2D_Destruction\Unity-delaunay\Delaunay\Edge.cs" />
+    <Compile Include="Assets\2D_Destruction\Unity-delaunay\Delaunay\EdgeList.cs" />
+    <Compile Include="Assets\2D_Destruction\Unity-delaunay\Delaunay\EdgeReorderer.cs" />
+    <Compile Include="Assets\2D_Destruction\Unity-delaunay\Delaunay\Halfedge.cs" />
+    <Compile Include="Assets\2D_Destruction\Unity-delaunay\Delaunay\HalfedgePriorityQueue.cs" />
+    <Compile Include="Assets\2D_Destruction\Unity-delaunay\Delaunay\ICoord.cs" />
+    <Compile Include="Assets\2D_Destruction\Unity-delaunay\Delaunay\LR.cs" />
+    <Compile Include="Assets\2D_Destruction\Unity-delaunay\Delaunay\Site.cs" />
+    <Compile Include="Assets\2D_Destruction\Unity-delaunay\Delaunay\SiteList.cs" />
+    <Compile Include="Assets\2D_Destruction\Unity-delaunay\Delaunay\Triangle.cs" />
+    <Compile Include="Assets\2D_Destruction\Unity-delaunay\Delaunay\Vertex.cs" />
+    <Compile Include="Assets\2D_Destruction\Unity-delaunay\Delaunay\Voronoi.cs" />
+    <Compile Include="Assets\2D_Destruction\Unity-delaunay\geom\Circle.cs" />
+    <Compile Include="Assets\2D_Destruction\Unity-delaunay\geom\LineSegment.cs" />
+    <Compile Include="Assets\2D_Destruction\Unity-delaunay\geom\Polygon.cs" />
+    <Compile Include="Assets\2D_Destruction\Unity-delaunay\geom\Winding.cs" />
+    <Compile Include="Assets\2D_Destruction\Unity-delaunay\utils\IDisposable.cs" />
+    <Compile Include="Assets\Explode.cs" />
+    <Compile Include="Assets\GameManager.cs" />
+    <Compile Include="Assets\Player.cs" />
+    <Compile Include="Assets\Score.cs" />
+    <Compile Include="Assets\Scripts\ApplySettings.cs" />
     <Compile Include="Assets\Scripts\asteroidSpawner.cs" />
+    <Compile Include="Assets\Scripts\ATakeDamage.cs" />
     <Compile Include="Assets\Scripts\Audio Scripts\Credits.cs" />
     <Compile Include="Assets\Scripts\Audio Scripts\CreditsSong.cs" />
+    <Compile Include="Assets\Scripts\fadeParticles.cs" />
     <Compile Include="Assets\Scripts\Fire.cs" />
     <Compile Include="Assets\Scripts\FloatLeft.cs" />
+    <Compile Include="Assets\Scripts\keepMoving.cs" />
+    <Compile Include="Assets\Scripts\LoadingFade.cs" />
+    <Compile Include="Assets\Scripts\LoadingZoom.cs" />
     <Compile Include="Assets\Scripts\MM Scripts\Button.cs" />
     <Compile Include="Assets\Scripts\MM Scripts\Buttons.cs" />
     <Compile Include="Assets\Scripts\MM Scripts\GameMangager.cs" />
@@ -234,7 +271,11 @@
     <Compile Include="Assets\Scripts\MoveForward.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerPrefs.cs" />
+    <Compile Include="Assets\Scripts\ReapeatingBackground.cs" />
     <Compile Include="Assets\Scripts\SelfDestruct.cs" />
+    <Compile Include="Assets\Scripts\StarsFloating.cs" />
+    <Compile Include="Assets\STakeDamage.cs" />
+    <Compile Include="Assets\testAnimation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TODO.txt" />

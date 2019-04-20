@@ -1,4 +1,5 @@
 ﻿//Is able to fullfill implement 3
+//Just fuck this thing probably
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

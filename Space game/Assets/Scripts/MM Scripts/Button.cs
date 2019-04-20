@@ -15,20 +15,31 @@ public class Button : MonoBehaviour {
 	public float fadeTime;
 	public bool isExit;
 
-	private float t;
+	private Text txt;
 	private AudioSource source;
 	private Image img;
+
 	void Start () {
-		source = GameObject.FindGameObjectWithTag("Audio Source").GetComponent<AudioSource>();
+		source = GameObject.FindGameObjectWithTag("Sound FX Source").GetComponent<AudioSource>();
 		img = GetComponent<Image>();
-		img.color = normalColor;
-		t = 0;
+		Debug.Log(img);
+		Debug.Log(img);
+		if (img == null)
+		{
+			txt = GetComponent<Text>();
+			txt.color = normalColor;
+		}
+		else
+			img.color = normalColor;
 	}
+
 
 	void OnMouseEnter()
 	{
+		Debug.Log("Enter");
 		StartCoroutine(Fade(normalColor, highlighedColor, fadeTime));
-		source.PlayOneShot(clip);
+		if(clip != null)
+			source.PlayOneShot(clip);
 	}
 	void OnMouseExit()
 	{
@@ -43,6 +54,7 @@ public class Button : MonoBehaviour {
 
 	void click()
 	{
+		Debug.Log("cick");
 		if (!isExit)
 			SceneManager.LoadScene(scene);
 		//Fullfills Implementation 2
@@ -54,6 +66,8 @@ public class Button : MonoBehaviour {
 			Application.Quit()
 		#endif
 		}
+		LoadingFade.fadeTime = 2f;
+		LoadingZoom.fadeTime = 2f;
 	}
 
 	//Fade script originally made by merlinmarijn
@@ -67,10 +81,17 @@ public class Button : MonoBehaviour {
 		for (float t = 0f; t < duration; t += Time.deltaTime)
 		{
 			float normalizedTime = t / duration;
-			img.color= Color.Lerp(start, end, normalizedTime);
+			if (img != null)
+				img.color = Color.Lerp(start, end, normalizedTime);
+			else
+				txt.color = Color.Lerp(start, end, normalizedTime);
+				// Debug.Log("Change Color");
 			yield return null;
+			if (img != null)
+				img.color = end; //without this, the value will end at something like 0.9992367
+			else
+				txt.color = end;
 		}
-		img.color = end; //without this, the value will end at something like 0.9992367
 	}
 
 }

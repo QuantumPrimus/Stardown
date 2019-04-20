@@ -18,4 +18,6 @@ public class FloatLeft : MonoBehaviour {
 		transform.Rotate(Vector3.forward * rotateSpeed);
 		rb.velocity= speed*Time.fixedDeltaTime;		
 	}
+
+    public void setSpeed(Vector2 s) { speed = s; }
 }

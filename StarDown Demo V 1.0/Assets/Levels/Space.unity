@@ -974,7 +974,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 833237591}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.69, y: 0.15, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1802094926}
@@ -1031,10 +1031,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66ffb05c0d937774da781a42926b05d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 1.25
   brakeSpeed: 0.005
   thrustSpeed: 2
-  rotateSpeed: 200
+  rotateSpeed: 250
   dampen: 0.79
   maxVelocity: 4
 --- !u!114 &833237596
@@ -1798,7 +1798,7 @@ RectTransform:
   m_GameObject: {fileID: 1987886986}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -1.300003}
-  m_LocalScale: {x: 0.016216217, y: 0.016216217, z: 0.016216217}
+  m_LocalScale: {x: 0.016544119, y: 0.016544119, z: 0.016544119}
   m_Children:
   - {fileID: 754645487}
   - {fileID: 1371668098}

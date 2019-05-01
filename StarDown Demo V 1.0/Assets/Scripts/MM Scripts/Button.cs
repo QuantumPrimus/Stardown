@@ -64,7 +64,7 @@ public class Button : MonoBehaviour {
 		#if UNITY_EDITOR
 			UnityEditor.EditorApplication.isPlaying = false;
 		#else
-			Application.Quit()
+			Application.Quit();
 		#endif
 		}
 		LoadingFade.fadeTime = 2f;

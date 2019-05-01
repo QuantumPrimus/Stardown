@@ -223,7 +223,6 @@
     <Compile Include="Assets\2D_Destruction\clipper_library\clipper.cs" />
     <Compile Include="Assets\2D_Destruction\Demo\Demo Scripts\ExplodeOnClick.cs" />
     <Compile Include="Assets\2D_Destruction\Demo\Demo Scripts\ExplosionForce.cs" />
-    <Compile Include="Assets\2D_Destruction\Demo\Demo Scripts\Reset.cs" />
     <Compile Include="Assets\2D_Destruction\Scripts\ClipperHelper.cs" />
     <Compile Include="Assets\2D_Destruction\Scripts\Explodable.cs" />
     <Compile Include="Assets\2D_Destruction\Scripts\ExplodableAddon.cs" />
@@ -255,8 +254,6 @@
     <Compile Include="Assets\Scripts\ApplySettings.cs" />
     <Compile Include="Assets\Scripts\asteroidSpawner.cs" />
     <Compile Include="Assets\Scripts\ATakeDamage.cs" />
-    <Compile Include="Assets\Scripts\Audio Scripts\Credits.cs" />
-    <Compile Include="Assets\Scripts\Audio Scripts\CreditsSong.cs" />
     <Compile Include="Assets\Scripts\fadeParticles.cs" />
     <Compile Include="Assets\Scripts\Fire.cs" />
     <Compile Include="Assets\Scripts\FloatLeft.cs" />
@@ -277,6 +274,7 @@
     <Compile Include="Assets\Scripts\SelfDestruct.cs" />
     <Compile Include="Assets\Scripts\StarsFloating.cs" />
     <Compile Include="Assets\testAnimation.cs" />
+    <Compile Include="Assets\TestButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TODO.txt" />

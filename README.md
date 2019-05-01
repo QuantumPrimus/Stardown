@@ -2,7 +2,11 @@
 ## A Project Started in 2019 as a school senior project
 ### Started by Mason Jensen
 
-### Demo Version 1.0
+# Versions
+[Demo Version 1.0](#demo-version-10)
+
+
+## Demo Version 1.0
 Stardown's Demo Version 1.0 has very few features, but the project is planned to be worked on in the future.
 Features in Demo Version 1.0 include:
 1. A functional Main Menu including
